@@ -1,0 +1,8 @@
+Udaj
+Název dohody
+Jméno, příjmení zaměstnance
+Rodné číslo
+Č. účtu/kód banky
+Místo narození
+Adresa zaměstnance
+Zdravotní pojišťovna — název a číslo
