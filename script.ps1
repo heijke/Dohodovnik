@@ -11,6 +11,7 @@ $Word = New-Object -ComObject Word.Application
 #Open file for editing
 try {$Dohoda = $Word.Documents.Open($Template)} catch {
 Write-Error "Soubor je již otevřen jiným procesem, zavřete ho a spusťte skript znovu."
+exit 1
 }
 Write-Progress -Activity 'Tvorba dohody' -Status 'Dokument otevřen!' -PercentComplete 0
 
@@ -43,6 +44,7 @@ function Fill-Details {
   param ([string]$details_path)
   try { $Details = Import-Csv -Encoding UTF8 -LiteralPath "$details_path" } catch {
   Write-Error "Soubor s osobmími údaji nenalezen v cestě : $details_path, zkontrolujte, zda existuje"
+  exit 1
   }
   try {
   $i = 1
