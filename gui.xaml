@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ps1_gui"
         mc:Ignorable="d"
-        Title="dohodovnik" Width="820" Height="595" MinWidth="820" MinHeight="595">
+        Title="Dohodovník" Width="820" Height="595" MinWidth="820" MinHeight="595">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="9*"/>
@@ -124,6 +124,6 @@
                 <TextBox x:Name="tPozn16" HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="55px"/>
             </StackPanel>
         </WrapPanel>
-        <TextBlock x:Name="tLog" HorizontalAlignment="Stretch" Height="130px" Margin="20,10,10,20" Grid.Row="1" Text="Okno otevreno..." TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="1"/>
+        <TextBlock x:Name="tLog" HorizontalAlignment="Stretch" Height="130px" Margin="20,10,10,20" Grid.Row="1" Text="Okno otevřeno..." TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="1"/>
     </Grid>
 </Window>

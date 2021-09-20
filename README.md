@@ -1,4 +1,4 @@
-## Dohodovník
+## Dohodovník - gui
 
 *Powershell skript pro tvorbu výkazů práce pro dohody o provedení práce pro SSPŠ*
 
@@ -24,3 +24,6 @@ Užití samotného skriptu je prosté, v naklonovaném adresáři s předlohou d
 PS C:\Users\Jenda\Dohodovnik>.\script-gui.ps1
 ```
 
+Následně se zobrazí WPF formulář, do kterého lze vyplnit potřebné údaje a vyplnit dohodu. 
+
+![](./wpf-gui.png)
