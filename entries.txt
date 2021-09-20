@@ -1,4 +1,0 @@
-Datum,Cinnost,Hodiny,Pozn
-8.9.2021,Vzorová činnost 1,4h
-11.9.2021,Vzorová činnost 2,5h,poznámka 
-12.9.2021,Vzorová činnost 3,2h

@@ -17,20 +17,20 @@
             <ColumnDefinition Width="0.5*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock HorizontalAlignment="Center" Height="20" Margin="0,10,0,0" Text="Osobni udaje" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Center" Height="20" Margin="0,10,0,0" Text="Provedena prace" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto" FontWeight="Bold" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Center" Height="20" Margin="0,10,0,0" Text="Pocet hodin, pozn" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto" FontWeight="Bold" Grid.Column="2"/>
+        <TextBlock HorizontalAlignment="Center" Height="20" Margin="0,10,0,0" Text="Osobní údaje" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Center" Height="20" Margin="0,10,0,0" Text="Provedená práce" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto" FontWeight="Bold" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Center" Height="20" Margin="0,10,0,0" Text="Počet hodin, pozn" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto" FontWeight="Bold" Grid.Column="2"/>
 
         <Button x:Name="tFill" Content="Vypln dohodu" Margin="0,0,20,20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Grid.Row="1" Grid.Column="2" Padding="3px"/>
         <WrapPanel HorizontalAlignment="Left">
             <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" Width="auto" Margin="20">
-                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Jmeno" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
-                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Prijmeni" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
-                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Rodne cislo" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
-                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Misto narozeni" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
+                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Jméno" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
+                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Příjmeni" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
+                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Rodné číslo" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
+                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Místo narození" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
                 <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Adresa" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
                 <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="ZP" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
-                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Cislo uctu" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
+                <TextBlock HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" Text="Číslo účtu" TextWrapping="Wrap" VerticalAlignment="Top" Width="auto"/>
             </StackPanel>
         </WrapPanel>
         <WrapPanel HorizontalAlignment="Right">
