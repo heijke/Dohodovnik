@@ -78,7 +78,7 @@ function Fill-Table {
     $Tabulka.Cell($i,2).Range.Text = "$($_.Cinnost)"
     $Tabulka.Cell($i,3).Range.Text = "$($_.Hodiny)"
     $Tabulka.Cell($i,4).Range.Text = "$($_.Pozn)"
-    $x++
+    $i++
   })
   Write-Progress -Activity 'Tvorba dohody' -Status "Položky práce vyplněny!" -PercentComplete 60
   } catch {
